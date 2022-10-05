@@ -32,11 +32,11 @@
 [MIT License](./LICENSE)
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@nuxtjs/strapi/latest.svg
-[npm-version-href]: https://npmjs.com/package/@nuxtjs/strapi
+[npm-version-src]: https://img.shields.io/npm/v/mexsonfernandes/nuxt2-strapi4/latest.svg
+[npm-version-href]: https://npmjs.com/package/mexsonfernandes/nuxt2-strapi4
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/@nuxtjs/strapi.svg
-[npm-downloads-href]: https://npmjs.com/package/@nuxtjs/strapi
+[npm-downloads-src]: https://img.shields.io/npm/dt/mexsonfernandes/nuxt2-strapi4.svg
+[npm-downloads-href]: https://npmjs.com/package/mexsonfernandes/nuxt2-strapi4
 
 [github-actions-ci-src]: https://github.com/nuxt-community/strapi-module/workflows/ci/badge.svg
 [github-actions-ci-href]: https://github.com/nuxt-community/strapi-module/actions?query=workflow%3Aci
@@ -44,5 +44,5 @@
 [codecov-src]: https://img.shields.io/codecov/c/github/nuxt-community/strapi-module.svg
 [codecov-href]: https://codecov.io/gh/nuxt-community/strapi-module
 
-[license-src]: https://img.shields.io/npm/l/@nuxtjs/strapi.svg
-[license-href]: https://npmjs.com/package/@nuxtjs/strapi
+[license-src]: https://img.shields.io/npm/l/mexsonfernandes/nuxt2-strapi4.svg
+[license-href]: https://npmjs.com/package/mexsonfernandes/nuxt2-strapi4
