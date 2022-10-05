@@ -1,7 +1,4 @@
-[![@nuxtjs/strapi](https://strapi.nuxtjs.org/preview.png)](https://strapi.nuxtjs.org)
-
-
-# @nuxtjs/strapi
+# Strapi v4 and Nuxt v2 integration module
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -9,7 +6,7 @@
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
-> [Strapi](https://strapi.io) module for [NuxtJS](https://nuxtjs.org)
+> [Strapi](https://strapi.io) v4 module for [NuxtJS](https://nuxtjs.org) v2. This module is edited to make it work with new Strapi version. I will keep it updated wherever possible. Raise issues if any.
 
 - [✨ &nbsp;Release Notes](https://github.com/nuxt-community/strapi-module/releases)
 - [📖 &nbsp;Read the documentation](https://strapi.nuxtjs.org)

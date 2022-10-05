@@ -145,7 +145,7 @@ export class Strapi extends Hookable {
   }
 
   create<T = any, E = string> (entity: E, data: NuxtStrapiData): Promise<T> {
-    return this.$http.$post<T>(`/api/${entity}`, {data})
+    return this.$http.$post<T>(`/api/${entity}`, { data })
   }
 
   update<T = any, E = string> (entity: E, id: string, data: NuxtStrapiData): Promise<T> {
@@ -155,7 +155,7 @@ export class Strapi extends Hookable {
     }
 
     const path = [entity, id].filter(Boolean).join('/')
-    return this.$http.$put(`/api/${path}`, {data})
+    return this.$http.$put(`/api/${path}`, { data })
   }
 
   delete<T = any, E = string> (entity: E, id: string): Promise<T> {
