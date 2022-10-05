@@ -133,19 +133,19 @@ export class Strapi extends Hookable {
   }
 
   find<T = any, E = string> (entity: E, searchParams?: NuxtStrapiQueryParams): Promise<T> {
-    return this.$http.$get<T>(`/${entity}`, { searchParams })
+    return this.$http.$get<T>(`/api/${entity}`, { searchParams })
   }
 
   count<T = any, E = string> (entity: E, searchParams?: NuxtStrapiQueryParams): Promise<T> {
-    return this.$http.$get<T>(`/${entity}/count`, { searchParams })
+    return this.$http.$get<T>(`/api/${entity}/count`, { searchParams })
   }
 
   findOne<T = any, E = string> (entity: E, id: string, searchParams?: NuxtStrapiQueryParams): Promise<T> {
-    return this.$http.$get<T>(`/${entity}/${id}`, { searchParams })
+    return this.$http.$get<T>(`/api/${entity}/${id}`, { searchParams })
   }
 
   create<T = any, E = string> (entity: E, data: NuxtStrapiData): Promise<T> {
-    return this.$http.$post<T>(`/${entity}`, data)
+    return this.$http.$post<T>(`/api/${entity}`, {data})
   }
 
   update<T = any, E = string> (entity: E, id: string, data: NuxtStrapiData): Promise<T> {
@@ -155,12 +155,12 @@ export class Strapi extends Hookable {
     }
 
     const path = [entity, id].filter(Boolean).join('/')
-    return this.$http.$put(`/${path}`, data)
+    return this.$http.$put(`/api/${path}`, {data})
   }
 
   delete<T = any, E = string> (entity: E, id: string): Promise<T> {
     const path = [entity, id].filter(Boolean).join('/')
-    return this.$http.$delete(`/${path}`)
+    return this.$http.$delete(`/api/${path}`)
   }
 
   graphql<T = any> (query): Promise<T> {
