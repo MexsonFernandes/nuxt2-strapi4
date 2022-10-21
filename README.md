@@ -5,6 +5,7 @@
 [![Github Actions CI][github-actions-ci-src]][github-actions-ci-href]
 [![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FMexsonFernandes%2Fnuxt2-strapi4&count_bg=%23121180&title_bg=%23001E26&icon=&icon_color=%23000000&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 > [Strapi](https://strapi.io) v4 module for [NuxtJS](https://nuxtjs.org) v2. This module is edited to make it work with new Strapi version. I will keep it updated wherever possible. Raise issues if any.
 
