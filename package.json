@@ -1,8 +1,8 @@
 {
   "name": "nuxt2-strapi4",
-  "version": "2022.1.1",
+  "version": "2022.0.1",
   "description": "Strapi 4 module for Nuxt 2",
-  "repository": "nuxt-community/strapi-module",
+  "repository": "mexsonfernandes/nuxt2-strapi4",
   "license": "MIT",
   "sideEffects": false,
   "exports": {
@@ -21,7 +21,7 @@
     "dev": "yarn nuxt-ts example",
     "docs": "nuxt docs",
     "lint": "eslint --ext .ts --ext .vue .",
-    "release": "yarn test && standard-version && yarn build && git push --follow-tags && npm publish --tag 0x",
+    "release": "yarn test && yarn build && git push --follow-tags && npm publish --tag 0x",
     "test": "yarn lint && jest"
   },
   "dependencies": {

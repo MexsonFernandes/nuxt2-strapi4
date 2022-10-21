@@ -8,7 +8,7 @@
 
 > [Strapi](https://strapi.io) v4 module for [NuxtJS](https://nuxtjs.org) v2. This module is edited to make it work with new Strapi version. I will keep it updated wherever possible. Raise issues if any.
 
-- [✨ &nbsp;Release Notes](https://github.com/nuxt-community/strapi-module/releases)
+- [✨ &nbsp;Release Notes](https://github.com/mexsonfernandes/nuxt2-strapi4/releases)
 - [📖 &nbsp;Read the documentation](https://strapi.nuxtjs.org)
 
 ## Features
@@ -32,17 +32,17 @@
 [MIT License](./LICENSE)
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/mexsonfernandes/nuxt2-strapi4/latest.svg
-[npm-version-href]: https://npmjs.com/package/mexsonfernandes/nuxt2-strapi4
+[npm-version-src]: https://img.shields.io/npm/v/nuxt2-strapi4/latest.svg
+[npm-version-href]: https://npmjs.com/package/nuxt2-strapi4
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/mexsonfernandes/nuxt2-strapi4.svg
-[npm-downloads-href]: https://npmjs.com/package/mexsonfernandes/nuxt2-strapi4
+[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt2-strapi4.svg
+[npm-downloads-href]: https://npmjs.com/package/nuxt2-strapi4
 
-[github-actions-ci-src]: https://github.com/nuxt-community/strapi-module/workflows/ci/badge.svg
-[github-actions-ci-href]: https://github.com/nuxt-community/strapi-module/actions?query=workflow%3Aci
+[github-actions-ci-src]: https://github.com/mexsonfernandes/nuxt2-strapi4/workflows/ci/badge.svg
+[github-actions-ci-href]: https://github.com/mexsonfernandes/nuxt2-strapi4/actions?query=workflow%3Aci
 
-[codecov-src]: https://img.shields.io/codecov/c/github/nuxt-community/strapi-module.svg
-[codecov-href]: https://codecov.io/gh/nuxt-community/strapi-module
+[codecov-src]: https://img.shields.io/codecov/c/github/mexsonfernandes/nuxt2-strapi4.svg
+[codecov-href]: https://codecov.io/gh/mexsonfernandes/nuxt2-strapi4
 
-[license-src]: https://img.shields.io/npm/l/mexsonfernandes/nuxt2-strapi4.svg
-[license-href]: https://npmjs.com/package/mexsonfernandes/nuxt2-strapi4
+[license-src]: https://img.shields.io/npm/l/nuxt2-strapi4.svg
+[license-href]: https://npmjs.com/package/nuxt2-strapi4

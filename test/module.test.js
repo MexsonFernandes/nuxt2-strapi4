@@ -14,7 +14,7 @@ describe('module', () => {
 
   it('renders', async () => {
     const { body } = await get('/')
-    expect(body).toContain('@nuxtjs/strapi')
+    expect(body).toContain('nuxt2-strapi4')
     expect(body).toContain('http://localhost:1337')
   })
 })

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>@nuxtjs/strapi</h1>
+    <h1>nuxt2-strapi4</h1>
     <h2>$strapi.state</h2>
     <pre>{{ JSON.stringify($strapi.state) }}</pre>
     <h2>options.url</h2>
